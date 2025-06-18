@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07006982-A7A9-35AA-B25F-9EC7E3CFFCA5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/C-ROAD/Desktop/TamatemGames1/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/C-ROAD/Desktop/TamatemGames1 -BC:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32 --check-stamp-file C:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\base\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\math\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\network\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/C-ROAD/Desktop/TamatemGames1/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/C-ROAD/Desktop/TamatemGames1 -BC:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32 --check-stamp-file C:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\base\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\math\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\network\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/C-ROAD/Desktop/TamatemGames1/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/C-ROAD/Desktop/TamatemGames1 -BC:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32 --check-stamp-file C:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\base\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\math\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\network\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/C-ROAD/Desktop/TamatemGames1/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/C-ROAD/Desktop/TamatemGames1 -BC:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32 --check-stamp-file C:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\base\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\math\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\network\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\C-ROAD\Desktop\TamatemGames1\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{71DF5A46-F61D-3511-9BB2-6C7268656EA3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{B38AD1F7-3A25-3C48-AD02-FB73581AC172}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{1BCB6E8E-0DD6-3250-B014-E8D821159E37}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{80825EF9-2496-35E7-822D-938706CBCD90}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{525EA004-A6EE-3BF6-8FDA-4D3D8DFE8D92}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{231BBAE0-7D92-36DC-8275-EA8E776C79EC}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{A616CD1D-0374-3882-8656-CBF3E2D0E882}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{C0BDF9A9-F14E-34A4-A849-710D4A36FE32}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{81C57DA2-F615-3042-9420-34772EC59CE8}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{E93FB5D3-00EF-3E94-8711-844B5CCA37BD}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{80A0CE54-73BC-3467-A095-3771F2202B4E}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{4ABEABE1-9C01-308C-8D35-E8E75F7E1D32}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\engine\external\external.vcxproj">
+      <Project>{A4379978-A56E-3414-AB93-EAD53EE3939B}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
