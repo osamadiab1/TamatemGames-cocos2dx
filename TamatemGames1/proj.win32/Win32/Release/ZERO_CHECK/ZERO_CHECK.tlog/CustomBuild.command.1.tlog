@@ -1,0 +1,10 @@
+^C:\USERS\C-ROAD\DESKTOP\TAMATEMGAMES1\PROJ.WIN32\CMAKEFILES\DF1ED5B3AD402B24A3D8F88C9BD16D3D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/C-ROAD/Desktop/TamatemGames1 -BC:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/C-ROAD/Desktop/TamatemGames1/proj.win32/TamatemGames1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
