@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\Debug\SYNC_RESOURCE-TamatemGames1</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\C-ROAD\Desktop\TamatemGames1\proj.win32\bin\TamatemGames1\Debug\TamatemGames1.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
